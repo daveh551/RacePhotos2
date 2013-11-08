@@ -1,11 +1,6 @@
+using Common.Logging;
 // [[Highway.Onramp.MVC.Data]]
 using Highway.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
-using Common.Logging;
 using RacePhotos2.App_Architecture.Configs;
 
 namespace RacePhotos2.App_Architecture.Services.Data
