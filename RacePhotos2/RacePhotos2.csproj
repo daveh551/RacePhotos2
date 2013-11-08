@@ -231,6 +231,7 @@
     <Compile Include="App_Architecture\Services\Core\WindsorFilterProvider.cs" />
     <Compile Include="App_Architecture\Services\Core\WindsorHttpControllerActivator.cs" />
     <Compile Include="App_Architecture\Services\Data\HighwayDataContext.cs" />
+    <Compile Include="App_Architecture\Services\Data\PhotoServerDbContext.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -247,6 +248,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaceController.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -297,6 +299,11 @@
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Race\Create.cshtml" />
+    <Content Include="Views\Race\Delete.cshtml" />
+    <Content Include="Views\Race\Details.cshtml" />
+    <Content Include="Views\Race\Edit.cshtml" />
+    <Content Include="Views\Race\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
