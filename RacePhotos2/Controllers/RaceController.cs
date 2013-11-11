@@ -8,17 +8,24 @@ using System.Web;
 using System.Web.Mvc;
 using PhotoServer.Domain;
 using RacePhotos2.App_Architecture.Services.Data;
+using Highway.Data;
 
-namespace RacePhotos2
+namespace RacePhotos2.Controllers
 {
     public class RaceController : Controller
     {
-        private PhotoServerDbContext db = new PhotoServerDbContext();
+        public RaceController(IRepository repository)
+        {
 
+            repo = repository;
+        }
+
+        private IRepository repo;
         // GET: /Race/
         public ActionResult Index()
         {
-            var races = db.Races.Include(r => r.Distance).Include(r => r.Event);
+            var races = repo.Execute()
+                .Races.Include(r => r.Distance).Include(r => r.Event);
             return View(races.ToList());
         }
 

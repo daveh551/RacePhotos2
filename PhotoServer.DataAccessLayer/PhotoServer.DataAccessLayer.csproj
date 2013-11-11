@@ -68,10 +68,9 @@
     <Compile Include="Mappings\HighwayMappingConfiguration.cs" />
     <Compile Include="Mappings\RaceMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\FindAllRaces.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Queries\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\RacePhotosData\PhotoServer.Domain\PhotoServer.Domain.csproj">
       <Project>{f8be44f9-5540-4d9d-84f8-a2614cd30987}</Project>
