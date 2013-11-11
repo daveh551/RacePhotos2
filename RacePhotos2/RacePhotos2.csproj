@@ -231,6 +231,11 @@
     <Compile Include="App_Architecture\Services\Core\WindsorFilterProvider.cs" />
     <Compile Include="App_Architecture\Services\Core\WindsorHttpControllerActivator.cs" />
     <Compile Include="App_Architecture\Services\Data\HighwayDataContext.cs" />
+    <Compile Include="App_Architecture\Services\Data\Migrations\201311112008018_InitialCreate.cs" />
+    <Compile Include="App_Architecture\Services\Data\Migrations\201311112008018_InitialCreate.Designer.cs">
+      <DependentUpon>201311112008018_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Architecture\Services\Data\Migrations\Configuration.cs" />
     <Compile Include="App_Architecture\Services\Data\PhotoServerDbContext.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -247,6 +252,11 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Migrations\201311112008384_InitialCreate.cs" />
+    <Compile Include="Models\Migrations\201311112008384_InitialCreate.Designer.cs">
+      <DependentUpon>201311112008384_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\RaceController.cs" />
     <Compile Include="Startup.cs" />
@@ -325,6 +335,14 @@
       <Project>{3ce4f023-bc86-43a3-9442-cd664463a16d}</Project>
       <Name>PhotoServer.DataAccessLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_Architecture\Services\Data\Migrations\201311112008018_InitialCreate.resx">
+      <DependentUpon>201311112008018_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models\Migrations\201311112008384_InitialCreate.resx">
+      <DependentUpon>201311112008384_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
