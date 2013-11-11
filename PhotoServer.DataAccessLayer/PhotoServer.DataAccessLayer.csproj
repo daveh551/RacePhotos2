@@ -68,7 +68,7 @@
     <Compile Include="Mappings\HighwayMappingConfiguration.cs" />
     <Compile Include="Mappings\RaceMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Queries\FindAllRaces.cs" />
+    <Compile Include="Queries\RaceQueries.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
