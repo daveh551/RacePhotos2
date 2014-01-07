@@ -5,10 +5,6 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacePhotos2", "RacePhotos2\RacePhotos2.csproj", "{1A69ADA0-12CA-43E8-9128-30EC15C701E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoServer.Domain", "..\RacePhotosData\PhotoServer.Domain\PhotoServer.Domain.csproj", "{F8BE44F9-5540-4D9D-84F8-A2614CD30987}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoServer.DataAccessLayer", "..\PhotoServer.DataAccessLayer\PhotoServer.DataAccessLayer.csproj", "{3CE4F023-BC86-43A3-9442-CD664463A16D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Azure|Any CPU = Azure|Any CPU
@@ -22,18 +18,6 @@ Global
 		{1A69ADA0-12CA-43E8-9128-30EC15C701E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A69ADA0-12CA-43E8-9128-30EC15C701E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A69ADA0-12CA-43E8-9128-30EC15C701E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8BE44F9-5540-4D9D-84F8-A2614CD30987}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
-		{F8BE44F9-5540-4D9D-84F8-A2614CD30987}.Azure|Any CPU.Build.0 = Azure|Any CPU
-		{F8BE44F9-5540-4D9D-84F8-A2614CD30987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8BE44F9-5540-4D9D-84F8-A2614CD30987}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8BE44F9-5540-4D9D-84F8-A2614CD30987}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8BE44F9-5540-4D9D-84F8-A2614CD30987}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3CE4F023-BC86-43A3-9442-CD664463A16D}.Azure|Any CPU.ActiveCfg = Release|Any CPU
-		{3CE4F023-BC86-43A3-9442-CD664463A16D}.Azure|Any CPU.Build.0 = Release|Any CPU
-		{3CE4F023-BC86-43A3-9442-CD664463A16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CE4F023-BC86-43A3-9442-CD664463A16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CE4F023-BC86-43A3-9442-CD664463A16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CE4F023-BC86-43A3-9442-CD664463A16D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
