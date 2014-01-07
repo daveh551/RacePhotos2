@@ -243,6 +243,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PhotoController.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\ExampleEntity.cs" />
     <Compile Include="Entities\Mappings\BaseMapping.cs" />
@@ -285,6 +286,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="SpecRunner.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -315,6 +317,7 @@
     <Content Include="Views\Race\Details.cshtml" />
     <Content Include="Views\Race\Edit.cshtml" />
     <Content Include="Views\Race\Index.cshtml" />
+    <Content Include="Views\Photo\Upload.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

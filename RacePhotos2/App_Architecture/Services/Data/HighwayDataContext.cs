@@ -11,13 +11,13 @@ namespace RacePhotos2.App_Architecture.Services.Data
         public HighwayDataContext(IConnectionStringConfig config, IMappingConfiguration mapping, IContextConfiguration contextConfiguration, ILog log)
             : base(config.ConnectionString, mapping, contextConfiguration, log)
         {
+            string msg = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
         }
 
         [Obsolete("Don't use this constructor in Application. Only here for Migrations")]
         public HighwayDataContext() :
             base("DefaultConnection", new PhotoServer.DataAccessLayer.Mappings.HighwayMappingConfiguration())
         {
-                
         }
     }
 }

@@ -12,6 +12,7 @@ namespace RacePhotos2.Models
         public ApplicationDbContext()
             : base("DefaultConnection")
         {
+            string msg = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
         }
     }
 }
